@@ -5,5 +5,8 @@ My first repository on github. Trying to learn git and all the functions in comm
 ### The testing goes on.. Seems to work.
 
 # New branch
-Testing to merge another branch in to master.
-Testing to merge another branch in to master.
+1. Testing to merge another branch in to master.
+2. Testing to merge another branch in to master.
+
+# Merging
+Merge should've worked just fine!

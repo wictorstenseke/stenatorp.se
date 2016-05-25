@@ -6,3 +6,4 @@ My first repository on github. Trying to learn git and all the functions in comm
 
 # New branch
 Testing to merge another branch in to master.
+Testing to merge another branch in to master.

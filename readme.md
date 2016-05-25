@@ -10,3 +10,6 @@ My first repository on github. Trying to learn git and all the functions in comm
 
 # Merging
 Merge should've worked just fine!
+
+## Second merge
+Merging with cmd-line this time. Let's see if this works.

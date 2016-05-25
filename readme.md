@@ -13,3 +13,6 @@ Merge should've worked just fine!
 
 ## Second merge
 Merging with cmd-line this time. Let's see if this works.
+
+## Edit in github
+Testedit in githubs markdown-code-tool.

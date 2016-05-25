@@ -1,0 +1,36 @@
+nav
+  background-color: rgba(255, 255, 255, 0.9)
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1)
+  .nav-wrapper
+    max-width: 1000px
+    height: 70px
+    margin: 0 auto
+    +display(flex)
+    +flex-direction(row)
+    +flex-wrap(no-wrap)
+    +justify-content(space-between)
+    +align-items(center)
+    .logotype
+      padding-left: 15px
+      height: 40px
+    .menu-button
+      margin-right: 35px
+    .nav-links
+      a
+        padding-right: 30px
+        text-decoration: none
+        color: #6b6b6b
+      a:last-child
+        padding-right: 15px
+    a:hover
+      color: #000
+
+//// Media Queries
+@media only screen and (max-width: 570px)
+  .nav-wrapper
+    +justify-content(center)
+  .logotype
+    padding-left: 0px
+    margin: 0 auto
+  .nav-links
+    display: none

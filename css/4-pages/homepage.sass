@@ -1,0 +1,45 @@
+section
+  padding: 20px
+  h1, h2, h3,
+    text-align: center
+    color: $primary-rubrik
+  h1
+    font-size: 2.4em
+  h2
+    font-size: 1.875em
+  p
+    color: $primary-text
+    line-height: 1.7
+    font-size: 18px
+  a
+    text-decoration: none
+  .text-ruta
+    margin: 35px auto 35px auto
+    max-width: 95%
+    +display(flex)
+    +flex-direction(column)
+    +justify-content(center)
+    +align-items(center)
+    background-color: $light-grey
+    border-radius: 2px
+    h3
+      margin-top: -13px
+    p
+      text-align: center
+      color: $primary-rubrik
+      margin-top: -10px
+      font-size: 18px
+  .lead
+    text-align: center
+    margin-top: -15px
+    color: $lead-text
+    font-style: italic
+    font-weight: 400
+
+
+
+//// Media Queries
+@media only screen and (min-width: 580px)
+  section
+    .text-ruta
+      max-width: 540px

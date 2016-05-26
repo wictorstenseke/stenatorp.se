@@ -403,6 +403,12 @@ html {
   background-color: #B3250D; }
 
 .hr-small {
+  margin: 30px auto 30px auto;
+  max-width: 100px;
+  height: 2px;
+  background-color: #B3250D; }
+
+.hr-small-underline {
   margin: 0 auto 30px auto;
   max-width: 100px;
   height: 2px;
@@ -470,7 +476,10 @@ nav {
       padding-left: 15px;
       height: 40px; }
     nav .nav-wrapper .menu-button {
-      margin-right: 35px; }
+      display: none; }
+    nav .nav-wrapper .nav-links li {
+      list-style-type: none;
+      display: inline-block; }
     nav .nav-wrapper .nav-links a {
       padding-right: 30px;
       text-decoration: none;
@@ -480,7 +489,7 @@ nav {
     nav .nav-wrapper a:hover {
       color: #000; }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 605px) {
   .nav-wrapper {
     -webkit-box-pack: center;
     -moz-box-pack: center;
@@ -495,6 +504,9 @@ nav {
   .logotype {
     padding-left: 0px;
     margin: 0 auto; }
+
+  .menu-button {
+    display: inline; }
 
   .nav-links {
     display: none; } }
@@ -541,23 +553,18 @@ nav {
   .citat {
     padding: 70px 0 70px 0px; } }
 .kontakt-info {
-  font-weight: 600; }
-  .kontakt-info .adress p {
+  margin: 0 auto;
+  max-width: 540px; }
+  .kontakt-info .adress h3 {
     font-size: 26px;
-    line-height: 1.4;
-    margin-bottom: -15px; }
-  .kontakt-info .telefon {
-    margin-top: 40px; }
-    .kontakt-info .telefon p {
-      font-size: 26px;
-      line-height: 1.4;
-      margin-bottom: -10px; }
+    line-height: 1; }
+  .kontakt-info .telefon h3 {
+    font-size: 26px;
+    line-height: 1; }
 
 @media only screen and (max-width: 350px) {
-  .kontakt-info {
-    padding: 0px; }
-    .kontakt-info .adress p {
-      font-size: 24px; } }
+  .kontakt-info .adress h3 {
+    font-size: 24px; } }
 footer {
   margin-top: 25px;
   background-color: #B3250D;
@@ -610,7 +617,10 @@ section {
   section p {
     color: #5b5b5b;
     line-height: 1.7;
-    font-size: 18px; }
+    font-size: 18px;
+    max-width: 540px;
+    text-align: left;
+    margin: 0 auto; }
   section a {
     text-decoration: none; }
   section .text-ruta {
@@ -655,11 +665,6 @@ section {
     border-radius: 2px; }
     section .text-ruta h3 {
       margin-top: -13px; }
-    section .text-ruta p {
-      text-align: center;
-      color: #4b4b4b;
-      margin-top: -10px;
-      font-size: 18px; }
   section .lead {
     text-align: center;
     margin-top: -15px;

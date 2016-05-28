@@ -381,7 +381,8 @@ html {
   html .wrapper {
     background-color: #ffffff;
     max-width: 1000px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.1); }
 
 .button-xs {
   margin: 50px auto 0 auto;
@@ -491,7 +492,8 @@ nav {
 .nav-shadow {
   height: 2px;
   max-width: 100%;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1); }
 
 @media only screen and (max-width: 605px) {
   .nav-wrapper {

@@ -4,11 +4,13 @@
 
 <body>
 
-  <?php include "includes/nav.php" ?>
+  <?php
+    include "includes/nav.php"
+  ?>
 
   <div class="wrapper">
 
-    <?php include "includes/pages/include-startsidan.php" ?>
+    <?php include "includes/pages/include-sjalvplock.php" ?>
 
     <?php include "includes/footer.php" ?>
 

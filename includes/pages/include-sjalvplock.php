@@ -1,4 +1,4 @@
-<!-- body -->
+<!-- content -->
 <section class="sjalvplock-site first-section">
   <h2>Självplockning</h2>
   <div class="hr-small-underline"></div>
@@ -36,4 +36,4 @@
     <h3>0706 - 29 50 63</h3>
   </div>
 </section>
-<!-- /body -->
+<!-- /content -->

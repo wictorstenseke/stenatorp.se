@@ -8,7 +8,7 @@
 
   <div class="wrapper">
 
-    <?php include "includes/pages/include-startsidan.php" ?>
+    <?php include "includes/pages/include-index.php" ?>
 
     <?php include "includes/footer.php" ?>
 

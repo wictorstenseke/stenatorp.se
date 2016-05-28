@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700);
 html {
   box-sizing: border-box; }
@@ -415,7 +416,7 @@ html {
   background-color: #B3250D; }
 
 .hr-big {
-  margin: 50px auto 10px auto;
+  margin: 50px auto 50px auto;
   max-width: 95%;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.1); }
@@ -630,42 +631,7 @@ section {
   section .text-ruta {
     margin: 35px auto 35px auto;
     max-width: 95%;
-    padding: 0 32px 0 32px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    -o-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    box-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    align-items: center;
-    -ms-flex-align: center;
+    padding: 20px 32px 30px 32px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 2px; }
     section .text-ruta h3 {
@@ -680,3 +646,51 @@ section {
 @media only screen and (min-width: 580px) {
   section .text-ruta {
     max-width: 540px; } }
+.betalsatt {
+  max-width: 500px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center; }
+  .betalsatt .swish {
+    max-height: 40px;
+    width: auto;
+    margin-right: 15px; }
+  .betalsatt .izettle {
+    max-height: 40px;
+    width: auto; }
+
+ul {
+  list-style: none;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0px; }
+  ul li {
+    color: #5b5b5b;
+    margin-bottom: 10px;
+    padding-left: 1em;
+    text-indent: -0.7em; }
+  ul li:last-child {
+    margin-bottom: 0px; }
+  ul li:before {
+    content: "• ";
+    color: #B3250D; }
+
+@media only screen and (min-width: 580px) {
+  .betalsatt .swish {
+    max-height: 60px; }
+  .betalsatt .izettle {
+    max-height: 60px; } }

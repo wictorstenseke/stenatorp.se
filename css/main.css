@@ -633,7 +633,7 @@ section {
     max-width: 95%;
     padding: 20px 32px 30px 32px;
     background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 2px; }
+    border-radius: 5px; }
     section .text-ruta h3 {
       margin-top: -13px; }
   section .lead {

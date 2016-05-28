@@ -1,6 +1,6 @@
 <!-- body -->
-<section class="sjalvplock-site first-section">
-  <h2>Självplockning</h2>
+<section class="forsaljning-site first-section">
+  <h2>Försäljning</h2>
   <div class="hr-small-underline"></div>
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
   <p>Vi odlar huvudsakligen sorten Polka som är en söt medelsen sort med

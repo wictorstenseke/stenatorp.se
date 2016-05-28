@@ -1,4 +1,4 @@
-<section class="header">
+<section class="header first-section">
   <h1>Välkomna till Stenatorp och familjen Stenseke!</h1>
 </section>
 

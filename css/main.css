@@ -482,15 +482,16 @@ nav {
       list-style-type: none;
       display: inline-block; }
     nav .nav-wrapper .nav-links a {
+      font-weight: 600;
       padding-right: 30px;
       text-decoration: none;
       color: #6b6b6b; }
     nav .nav-wrapper .nav-links a:last-child {
       padding-right: 15px; }
-    nav .nav-wrapper a:hover {
-      color: #000; }
+    nav .nav-wrapper li:hover {
+      color: #2b2b2b; }
 
-@media only screen and (max-width: 605px) {
+@media only screen and (max-width: 625px) {
   .nav-wrapper {
     -webkit-box-pack: center;
     -moz-box-pack: center;
@@ -514,7 +515,7 @@ nav {
 .header {
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
-  background-image: url("../img/stenagard.png");
+  background-image: url(../img/stenagard.png);
   background-size: cover;
   height: 250px;
   max-width: 100%;
@@ -528,10 +529,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .header {
-      background-image: url("../img/stenagard_2x.png");
-      background-size: 199px 130px; } }
   .header h1 {
     color: #ffffff;
     text-align: center;
@@ -642,6 +639,9 @@ section {
     color: #7b7b7b;
     font-style: italic;
     font-weight: 400; }
+
+.first-section {
+  margin-top: 20px; }
 
 @media only screen and (min-width: 580px) {
   section .text-ruta {

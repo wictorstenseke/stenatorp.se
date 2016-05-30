@@ -32,12 +32,11 @@
 
   <div class="mobil-nav">
       <div class="hr-small-nav"></div>
-      <li><a href="../sjalvplock.php">Självplock</a></li>
+      <a href="../sjalvplock.php"><li>Självplock</li></a>
       <div class="hr-small-nav"></div>
-      <li><a href="../forsaljning.php">Försäljning</a></li>
+      <a href="../forsaljning.php"><li>Försäljning</li></a>
       <div class="hr-small-nav"></div>
-      <li><a href="#">Kontakt / Hitta hit</a></li>
-      <div class="hr-small-nav"></div>
+      <a href="#"><li>Kontakt / Hitta hit</li></a>
   </div>
 
 </header>

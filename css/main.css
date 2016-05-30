@@ -473,13 +473,13 @@ header {
     background-color: rgba(255, 255, 255, 0.95);
     text-align: left;
     box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1); }
-    .navbar-fixed .mobil-nav li {
-      padding: 20px;
-      list-style-type: none; }
-      .navbar-fixed .mobil-nav li a {
-        font-weight: 600;
-        color: #4b4b4b;
-        text-decoration: none; }
+    .navbar-fixed .mobil-nav a {
+      font-weight: 600;
+      color: #4b4b4b;
+      text-decoration: none; }
+      .navbar-fixed .mobil-nav a li {
+        padding: 20px;
+        list-style-type: none; }
 
 @media only screen and (max-width: 740px) {
   .medium-nav {

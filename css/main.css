@@ -378,11 +378,6 @@ html {
     background-color: #f3f3f3;
     font-family: "Open Sans", arial, sans-serif;
     font-size: 18px; }
-  html .wrapper {
-    background-color: #ffffff;
-    max-width: 1000px;
-    margin: 0 auto;
-    box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.1); }
 
 .button-xs {
   margin: 50px auto 0 auto;
@@ -416,7 +411,7 @@ html {
   background-color: #B3250D; }
 
 .hr-big {
-  margin: 50px auto 50px auto;
+  margin: 50px auto 10px auto;
   max-width: 95%;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.1); }

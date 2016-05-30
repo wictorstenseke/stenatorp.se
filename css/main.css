@@ -411,7 +411,7 @@ html {
   background-color: #B3250D; }
 
 .hr-big {
-  margin: 50px auto 10px auto;
+  margin: 50px auto 50px auto;
   max-width: 95%;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.1); }

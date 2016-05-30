@@ -1,6 +1,6 @@
 header
   height: 90px
-  background-color: rgba(255,255,255,0.93)
+  background-color: rgba(255,255,255,0.95)
   box-shadow: 0 2px 1px 0 rgba(0,0,0,0.1)
 
 .navbar-fixed
@@ -15,16 +15,19 @@ header
   .navigation-wrap
     max-width: 1000px
     margin: 0 auto
-
+    +clearfix
     .logo
       float: left
-      margin: 15px 0 0 30px
+      margin: 22px 0 0 30px
       img
-        width: 240px
+        width: 210px
+    .menu-toggle
+      float: right
+      margin: 35px 35px 0 0
 
     nav
       float: right
-      margin: 30px 30px 0 0
+      margin: 35px 30px 0 0
       a
         display: inline-block
         margin-left: 40px
@@ -35,8 +38,29 @@ header
         &:hover
           color: #000
 
+  .mobil-nav
+    margin-top: 0px
+    background-color: rgba(255,255,255,0.95)
+    text-align: left
+    box-shadow: 0 2px 2px 1px rgba(0,0,0,0.1)
+    li
+      padding: 20px
+      list-style-type: none
+      a
+        font-weight: 600
+        color: $primary-rubrik
+        text-decoration: none
+
+
 // Media Queries
-@media only screen and (max-width: 799px)
-  img
-    margin-top: 6px
-    width: 180px
+@media only screen and (max-width: 740px)
+  .medium-nav
+    display: none
+  .logo
+    margin: 0 auto
+
+@media only screen and (min-width: 741px)
+  .menu-toggle
+    display: none
+  .mobil-nav
+    display: none

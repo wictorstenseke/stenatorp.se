@@ -1,48 +1,48 @@
-nav
-  z-index: 1
-  background-color: rgba(255, 255, 255, 0.9)
-  // box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1)
-  .nav-wrapper
-    max-width: 1000px
-    height: 70px
-    margin: 0 auto
-    +display(flex)
-    +flex-direction(row)
-    +flex-wrap(no-wrap)
-    +justify-content(space-between)
-    +align-items(center)
-    .logotype
-      padding-left: 15px
-      height: 40px
-    .menu-button
-      display: none
-    .nav-links
-      li
-        list-style-type: none
-        display: inline-block
-      a
-        padding-right: 30px
-        text-decoration: none
-        color: #6b6b6b
-      a:last-child
-        padding-right: 15px
-    a:hover
-      color: #000
+header
+  height: 90px
+  background-color: rgba(255,255,255,0.93)
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,0.1)
 
-.nav-shadow
-  height: 2px
-  max-width: 100%
-  background-color: $white
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1)
+.navbar-fixed
+  -webkit-transform: translateZ(0)
+  transform: translateZ(0)
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 2000
+
+  .navigation-wrap
+    max-width: 1000px
+    margin: 0 auto
+
+    .logo
+      height: auto
+      width: 250px
+      float: left
+      margin: 15px 0 0 30px
+
+    nav
+      float: right
+      margin: 30px 30px 0 0
+      a
+        display: inline-block
+        margin-left: 40px
+        font-weight: 600
+        color: $primary-rubrik
+        text-decoration: none
+
+        &:hover
+          color: #000
 
 //// Media Queries
-@media only screen and (max-width: 605px)
-  .nav-wrapper
-    +justify-content(center)
-  .logotype
-    padding-left: 0px
-    margin: 0 auto
-  .menu-button
-    display: inline
-  .nav-links
-    display: none
+// @media only screen and (max-width: 605px)
+//   .nav-wrapper
+//     +justify-content(center)
+//   .logotype
+//     padding-left: 0px
+//     margin: 0 auto
+//   .menu-button
+//     display: inline
+//   .nav-links
+//     display: none

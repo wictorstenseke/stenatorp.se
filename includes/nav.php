@@ -1,4 +1,4 @@
-<nav>
+<!-- <nav>
   <div class="nav-wrapper">
     <img class="logotype" src="img/logostenatorp.svg" alt="Stenatorps logotype">
     <img class="menu-button" src="img/menu-toggle.svg" alt="Meny knapp">
@@ -8,5 +8,22 @@
       <a href="#"><li>Kontakt / Hitta hit</li></a>
     </div>
   </div>
-  <div class="nav-shadow"></div>
-</nav>
+</nav> -->
+
+<header class="navbar-fixed">
+
+  <div class="navigation-wrap">
+
+    <div class="logo">
+      <a href="../index.php"><img src="../img/logostenatorp.svg" alt="Stenatorps logotype"></a>
+    </div>
+
+    <nav>
+      <a href="../sjalvplock.php">Självplock</a>
+      <a href="../forsaljning.php">Försäljning</a>
+      <a href="#">Kontakt / Hitta hit</a>
+    </nav>
+
+  </div>
+
+</header>

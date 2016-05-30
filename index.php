@@ -10,9 +10,9 @@
 
     <?php include "includes/pages/include-index.php" ?>
 
-    <?php include "includes/footer.php" ?>
-
   </div>
+
+  <?php include "includes/footer.php" ?>
 
 </body>
 </html>

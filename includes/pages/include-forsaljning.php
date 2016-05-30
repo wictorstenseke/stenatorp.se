@@ -1,6 +1,6 @@
 <!-- content -->
 <section class="forsaljning-site first-section">
-  <h2>Försäljning</h2>
+  <h1>Försäljning</h1>
   <div class="hr-small-underline"></div>
   <h3 class="lead">Välkommen att handla dagsfärska jordgubbar i vår gårdsbutik.</h3>
 

@@ -12,9 +12,9 @@
 
     <?php include "includes/pages/include-forsaljning.php" ?>
 
-    <?php include "includes/footer.php" ?>
-
   </div>
+
+  <?php include "includes/footer.php" ?>
 
 </body>
 </html>

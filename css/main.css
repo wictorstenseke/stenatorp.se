@@ -378,6 +378,11 @@ html {
     background-color: #f3f3f3;
     font-family: "Open Sans", arial, sans-serif;
     font-size: 18px; }
+  html .wrapper {
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+    z-index: 0; }
 
 .button-xs {
   margin: 50px auto 0 auto;
@@ -391,7 +396,6 @@ html {
   text-align: center;
   text-decoration: none;
   -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out; }
 
 .button-xs:hover {
@@ -420,6 +424,7 @@ html {
   .button-xs {
     max-width: 320px; } }
 nav {
+  z-index: 1;
   background-color: rgba(255, 255, 255, 0.9); }
   nav .nav-wrapper {
     max-width: 1000px;
@@ -433,10 +438,8 @@ nav {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
     box-orient: horizontal;
     -webkit-box-direction: normal;
-    -moz-box-direction: normal;
     box-direction: normal;
     -webkit-flex-direction: row;
     -moz-flex-direction: row;
@@ -446,11 +449,9 @@ nav {
     -moz-box-lines: no-wrap;
     box-lines: no-wrap;
     -webkit-flex-wrap: no-wrap;
-    -moz-flex-wrap: no-wrap;
     -ms-flex-wrap: no-wrap;
     flex-wrap: no-wrap;
     -webkit-box-pack: justify;
-    -moz-box-pack: justify;
     box-pack: justify;
     -webkit-justify-content: space-between;
     -moz-justify-content: space-between;
@@ -459,7 +460,6 @@ nav {
     justify-content: space-between;
     -ms-flex-pack: justify;
     -webkit-box-align: center;
-    -moz-box-align: center;
     box-align: center;
     -webkit-align-items: center;
     -moz-align-items: center;
@@ -493,7 +493,6 @@ nav {
 @media only screen and (max-width: 605px) {
   .nav-wrapper {
     -webkit-box-pack: center;
-    -moz-box-pack: center;
     box-pack: center;
     -webkit-justify-content: center;
     -moz-justify-content: center;
@@ -526,8 +525,14 @@ nav {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .header h1 {
     color: #ffffff;
     text-align: center;
@@ -540,6 +545,7 @@ nav {
 .citat {
   background-color: #B3250D;
   background-image: -webkit-linear-gradient(left, #B3250D, #ED3112);
+  background-image: -webkit-linear-gradient(left,#B3250D, #ED3112);
   background-image: linear-gradient(to right,#B3250D, #ED3112);
   margin-top: 25px; }
   .citat p {
@@ -570,6 +576,7 @@ footer {
   margin-top: 25px;
   background-color: #B3250D;
   background-image: -webkit-linear-gradient(left, #B3250D, #ED3112);
+  background-image: -webkit-linear-gradient(left,#B3250D, #ED3112);
   background-image: linear-gradient(to right,#B3250D, #ED3112);
   display: -webkit-box;
   display: -moz-box;
@@ -579,17 +586,14 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
   box-orient: vertical;
   -webkit-box-direction: normal;
-  -moz-box-direction: normal;
   box-direction: normal;
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   flex-direction: column;
   -ms-flex-direction: column;
   -webkit-box-align: center;
-  -moz-box-align: center;
   box-align: center;
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -656,7 +660,6 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -moz-box-pack: center;
   box-pack: center;
   -webkit-justify-content: center;
   -moz-justify-content: center;

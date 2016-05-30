@@ -1,0 +1,38 @@
+.button-xs
+  margin: 50px auto 0 auto
+  max-width: 85%
+  display: block
+  color: $primary-color
+  border: 1px solid $primary-color
+  border-radius: 5px
+  padding: 10px 40px
+  text-transform: uppercase
+  text-align: center
+  text-decoration: none
+  +transition(all 0.1s ease-in-out)
+.button-xs:hover
+  color: $white
+  background-color: $primary-color
+
+.hr-small
+  margin: 30px auto 30px auto
+  max-width: 100px
+  height: 2px
+  background-color: $primary-color
+
+.hr-small-underline
+  margin: 0 auto 30px auto
+  max-width: 100px
+  height: 2px
+  background-color: $primary-color
+
+.hr-big
+  margin: 50px auto 10px auto
+  max-width: 95%
+  height: 2px
+  background-color: $light-grey
+
+//// Media Queries
+@media only screen and (min-width: 415px)
+  .button-xs
+    max-width: 320px

@@ -1,5 +1,7 @@
-$ (document).ready(function(){
+$(document).ready(function(){
 
-   $("p").hide();
+   $('.menu-toggle').click(function(){
+        $('.mobil-nav').toggle();
+    });
 
 });

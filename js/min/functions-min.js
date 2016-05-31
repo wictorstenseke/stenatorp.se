@@ -1,1 +1,1 @@
-$(document).ready(function(){$("p").hide()});
+$(document).ready(function(){$(".menu-toggle").click(function(){$(".mobil-nav").toggle()})});

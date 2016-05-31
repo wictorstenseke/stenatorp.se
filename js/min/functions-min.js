@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".menu-toggle").click(function(){$(".mobil-nav").toggle()})});
+$(document).ready(function(){$(".menu-toggle").click(function(){$(".mobil-nav").slideToggle(150)})});

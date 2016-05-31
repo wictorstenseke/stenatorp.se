@@ -690,6 +690,9 @@ footer {
   footer .copy {
     color: rgba(255, 255, 255, 0.35); }
 
+.forsaljning {
+  margin-top: -70px; }
+
 ul {
   list-style: none;
   max-width: 540px;

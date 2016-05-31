@@ -469,6 +469,7 @@ header {
         .navbar-fixed .navigation-wrap nav a:hover {
           color: #000; }
   .navbar-fixed .mobil-nav {
+    display: none;
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.95);
     text-align: left;

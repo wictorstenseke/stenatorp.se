@@ -23,8 +23,8 @@
     </div>
 
     <nav class="medium-nav">
-      <a href="../sjalvplock.php">Självplock</a>
-      <a href="../forsaljning.php">Försäljning</a>
+      <a href="sjalvplock.php">Självplock</a>
+      <a href="forsaljning.php">Försäljning</a>
       <a href="#">Kontakt / Hitta hit</a>
     </nav>
 

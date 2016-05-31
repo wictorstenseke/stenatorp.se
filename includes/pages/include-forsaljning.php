@@ -19,6 +19,7 @@
   </div>
   <div class="hr-big"></div>
   <h2>Beställa bär</h2>
+  <div class="hr-small-underline"></div>
   <p>Önskar du större mängd av bär kan Du under högsäsong beställa färdigplockade bär
     i lösvikt. Minsta mängd 5 kg. Beställning görs på telefon enligt nedan.</p>
   <div class="text-ruta">

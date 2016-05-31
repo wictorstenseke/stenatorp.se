@@ -19,6 +19,7 @@
   <p>Betalning <strong>kontant, överföring med Swish eller med kort.</strong></p>
   <div class="hr-big"></div>
   <h2>Att tänka på:</h2>
+  <div class="hr-small-underline"></div>
   <ul>
     <li><span>Tag med egna kärl.</span></li>
     <li><span>Lämpliga skor och ev. regnskydd. Det kan vara blött i landet.</span></li>

@@ -384,7 +384,8 @@ body {
 .wrapper {
   background-color: #ffffff;
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1); }
 
 @media only screen and (max-width: 740px) {
   body {
@@ -569,7 +570,7 @@ header {
   .kontakt-info .adress h3 {
     font-size: 24px; } }
 footer {
-  margin-top: 25px;
+  padding: 20px;
   background-color: #B3250D;
   background-image: -webkit-linear-gradient(left, #B3250D, #ED3112);
   background-image: linear-gradient(to right,#B3250D, #ED3112);
@@ -609,37 +610,44 @@ footer {
     color: rgba(255, 255, 255, 0.35); }
 
 section {
-  padding: 20px; }
-  section h1, section h2, section h3 {
-    text-align: center;
-    color: #4b4b4b; }
-  section h1 {
-    font-size: 2.4em; }
-  section h2 {
-    font-size: 1.875em; }
-  section p {
-    color: #5b5b5b;
-    line-height: 1.7;
-    font-size: 18px;
-    max-width: 540px;
-    text-align: left;
-    margin: 0 auto; }
-  section a {
-    text-decoration: none; }
-  section .text-ruta {
-    margin: 35px auto 35px auto;
-    max-width: 95%;
-    padding: 20px 32px 30px 32px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px; }
-    section .text-ruta h3 {
-      margin-top: -13px; }
-  section .lead {
-    text-align: center;
-    margin-top: -15px;
-    color: #7b7b7b;
-    font-style: italic;
-    font-weight: 400; }
+  padding: 20px 20px 30px 20px; }
+
+h1, h2, h3 {
+  text-align: center;
+  color: #4b4b4b; }
+
+h1 {
+  font-size: 2.4em; }
+
+h2 {
+  font-size: 1.875em; }
+
+p {
+  color: #5b5b5b;
+  line-height: 1.7;
+  font-size: 18px;
+  max-width: 540px;
+  text-align: left;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+.text-ruta {
+  margin: 35px auto 35px auto;
+  max-width: 95%;
+  padding: 20px 32px 30px 32px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px; }
+  .text-ruta h3 {
+    margin-top: -13px; }
+
+.lead {
+  text-align: center;
+  margin-top: -15px;
+  color: #7b7b7b;
+  font-style: italic;
+  font-weight: 400; }
 
 .forsaljning {
   margin-top: -60px; }

@@ -458,12 +458,14 @@ header {
       display: table; }
     .navbar-fixed .navigation-wrap .logo {
       float: left;
-      margin: 22px 0 0 30px; }
+      margin: 27px 0 0 30px; }
       .navbar-fixed .navigation-wrap .logo img {
-        width: 210px; }
+        width: 190px; }
     .navbar-fixed .navigation-wrap .menu-toggle {
+      height: 45px;
+      width: 45px;
       float: right;
-      margin: 35px 35px 0 0; }
+      margin: 22px 5px 0 0; }
     .navbar-fixed .navigation-wrap nav {
       float: right;
       margin: 35px 30px 0 0; }
@@ -477,7 +479,7 @@ header {
           color: #000; }
   .navbar-fixed .mobil-nav {
     display: none;
-    margin-top: 0px;
+    margin-top: -8px;
     background-color: rgba(255, 255, 255, 0.95);
     text-align: left;
     box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2); }
@@ -491,7 +493,15 @@ header {
 
 @media only screen and (max-width: 740px) {
   .medium-nav {
-    display: none; } }
+    display: none; }
+
+  header {
+    height: 65px; }
+
+  .navbar-fixed .navigation-wrap .logo {
+    margin: 15px 0 0 30px; }
+    .navbar-fixed .navigation-wrap .logo img {
+      width: 170px; } }
 @media only screen and (min-width: 741px) {
   .menu-toggle {
     display: none; }

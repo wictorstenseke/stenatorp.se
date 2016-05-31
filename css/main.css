@@ -374,16 +374,21 @@ textarea {
 
 html {
   -webkit-font-smoothing: antialiased; }
-  html body {
-    background-color: #f3f3f3;
-    font-family: "Open Sans", arial, sans-serif;
-    font-size: 18px;
-    padding-top: 90px; }
-  html .wrapper {
-    background-color: #ffffff;
-    max-width: 1000px;
-    margin: 0 auto; }
 
+body {
+  background-color: #f3f3f3;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 18px;
+  padding-top: 90px; }
+
+.wrapper {
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+@media only screen and (max-width: 740px) {
+  body {
+    padding-top: 65px; } }
 .button-xs {
   margin: 50px auto 0 auto;
   max-width: 85%;
@@ -504,9 +509,6 @@ header {
       width: 170px; } }
 @media only screen and (min-width: 741px) {
   .menu-toggle {
-    display: none; }
-
-  .mobil-nav {
     display: none; } }
 .header {
   background-color: rgba(0, 0, 0, 0.4);

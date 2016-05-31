@@ -470,7 +470,8 @@ header {
       height: 35px;
       width: 35px;
       float: right;
-      margin: 25px 30px 0 0; }
+      margin: 25px 30px 0 0;
+      cursor: pointer; }
       .navbar-fixed .navigation-wrap .menu-toggle img {
         width: 30px;
         height: auto; }

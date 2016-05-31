@@ -37,6 +37,7 @@
       <a href="../forsaljning.php"><li>Försäljning</li></a>
       <div class="hr-small-nav"></div>
       <a href="#"><li>Kontakt / Hitta hit</li></a>
+      <div class="hr-small-nav-last"></div>
   </div>
 
 </header>

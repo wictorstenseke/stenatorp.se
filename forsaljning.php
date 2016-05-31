@@ -16,5 +16,8 @@
 
   <?php include "includes/footer.php" ?>
 
+  <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="js/min/functions-min.js"></script>
+
 </body>
 </html>

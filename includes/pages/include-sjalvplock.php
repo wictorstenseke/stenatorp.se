@@ -13,8 +13,8 @@
     <h3>Välkomna!</h3>
   </div>
   <div class="betalsatt">
-    <img class="swish" src="../../img/swish-logo.png" alt="Swish logotype.">
-    <img class="izettle" src="../../img/izettle-icon.png" alt="iZettle logotype.">
+    <img class="swish" src="img/swish-logo.png" alt="Swish logotype.">
+    <img class="izettle" src="img/izettle-icon.png" alt="iZettle logotype.">
   </div>
   <p>Betalning <strong>kontant, överföring med Swish eller med kort.</strong></p>
   <div class="hr-big"></div>

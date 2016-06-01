@@ -9,7 +9,7 @@
     <h3>Varje dag från 09:00 och så länge bären räcker.</h3>
   </div>
   <div class="betalsatt">
-    <img class="swish" src="../../img/swish-logo.png" alt="Swish logotype.">
+    <img class="swish" src="img/swish-logo.png" alt="Swish logotype.">
   </div>
   <p>Betalning <strong>kontant eller banköverföring med Swish.</strong></p>
   <div class="hr-big"></div>

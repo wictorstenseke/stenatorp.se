@@ -637,19 +637,6 @@ header {
 @media only screen and (min-width: 680px) {
   .citat {
     padding: 70px 0 70px 0px; } }
-.kontakt-info {
-  margin: 0 auto;
-  max-width: 540px; }
-  .kontakt-info .adress h3 {
-    font-size: 26px;
-    line-height: 1; }
-  .kontakt-info .telefon h3 {
-    font-size: 26px;
-    line-height: 1; }
-
-@media only screen and (max-width: 350px) {
-  .kontakt-info .adress h3 {
-    font-size: 24px; } }
 footer {
   padding: 20px;
   background-color: #B3250D;
@@ -694,6 +681,19 @@ footer {
 .forsaljning {
   margin-top: -70px; }
 
+.kontakt-info {
+  margin: 0 auto;
+  max-width: 540px; }
+  .kontakt-info .adress h3 {
+    font-size: 26px;
+    line-height: 1; }
+  .kontakt-info .telefon h3 {
+    font-size: 26px;
+    line-height: 1; }
+
+@media only screen and (max-width: 350px) {
+  .kontakt-info .adress h3 {
+    font-size: 24px; } }
 ul {
   list-style: none;
   max-width: 540px;
@@ -709,3 +709,12 @@ ul {
   ul li:before {
     content: "• ";
     color: #B3250D; }
+
+.karta {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto; }
+  .karta img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -25px; }

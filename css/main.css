@@ -567,7 +567,8 @@ header {
         color: #4b4b4b;
         text-decoration: none; }
         .navbar-fixed .navigation-wrap nav a:hover {
-          color: #000; }
+          color: #222;
+          text-decoration: underline; }
   .navbar-fixed .mobil-nav {
     display: none;
     background-color: rgba(255, 255, 255, 0.95);
@@ -580,6 +581,9 @@ header {
       .navbar-fixed .mobil-nav a li {
         padding: 20px;
         list-style-type: none; }
+        .navbar-fixed .mobil-nav a li:hover {
+          color: #222;
+          text-decoration: underline; }
 
 @media only screen and (max-width: 740px) {
   .medium-nav {

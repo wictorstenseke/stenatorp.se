@@ -12,7 +12,7 @@
 
     <nav class="medium-nav">
       <a href="sjalvplock.php">Självplock</a>
-      <a href="forsaljning.php">Försäljning</a>
+      <a class="active-link" href="forsaljning.php">Försäljning</a>
       <a href="kontakt.php">Kontakt / Hitta hit</a>
     </nav>
 

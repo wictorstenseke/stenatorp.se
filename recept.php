@@ -3,7 +3,7 @@
 <?php include "includes/head.php" ?>
 
 <body>
-
+  <?php $page = "recept"; ?>
   <?php
     include "includes/nav.php"
   ?>

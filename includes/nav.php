@@ -11,10 +11,10 @@
     </div>
 
     <nav class="medium-nav">
-      <a class="active-link" href="forsaljning.php">Försäljning</a>
-      <a href="sjalvplock.php">Självplock</a>
-      <a href="kontakt.php">Kontakt / Hitta hit</a>
-      <a href="recept.php">Recept</a>
+      <a class="<?php echo ($page == "forsaljning" ? "active" : "")?>" href="forsaljning.php">Försäljning</a>
+      <a class="<?php echo ($page == "sjalvplock" ? "active" : "")?>" href="sjalvplock.php">Självplock</a>
+      <a class="<?php echo ($page == "kontakt" ? "active" : "")?>" href="kontakt.php">Kontakt / Hitta hit</a>
+      <a class="<?php echo ($page == "recept" ? "active" : "")?>" href="recept.php">Recept</a>
     </nav>
 
   </div>

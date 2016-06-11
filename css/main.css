@@ -414,6 +414,10 @@ p {
 a {
   text-decoration: none; }
 
+.active {
+  color: #222;
+  text-decoration: underline; }
+
 @media only screen and (max-width: 770px) {
   body {
     padding-top: 65px; } }
@@ -569,6 +573,9 @@ header {
         .navbar-fixed .navigation-wrap nav a:hover {
           color: #222;
           text-decoration: underline; }
+      .navbar-fixed .navigation-wrap nav .active {
+        color: #222;
+        text-decoration: underline; }
   .navbar-fixed .mobil-nav {
     display: none;
     background-color: rgba(255, 255, 255, 0.95);
@@ -604,6 +611,7 @@ header {
   background-blend-mode: multiply;
   background-image: url(../img/stenagard.png);
   background-size: cover;
+  background-position: right bottom;
   height: 300px;
   max-width: 100%;
   padding: 20px;

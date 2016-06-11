@@ -5,6 +5,7 @@
   <section class="forsaljning">
     <a href="forsaljning.php"><h1>Försäljning</h1></a>
     <div class="hr-small-underline"></div>
+    <h3 class="lead">Välkommen att handla dagsfärska jordgubbar i vår gårdsbutik.</h3>
     <p>Välkommen till vår gårdsbutik som är öppen varje dag från kl. 09:00
        och så länge jordgubbarna räcker.</p>
     <div class="text-ruta">

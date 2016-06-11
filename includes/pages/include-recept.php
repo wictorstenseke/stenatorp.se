@@ -5,8 +5,9 @@
   <div class="hr-small-underline"></div>
   <h3 class="lead">Jordgubbsrecept från Stenatorp.</h3>
 
+
   <h3>Rårörd jordgubbssaft</h3>
-  <div class="hr-small-underline"></div>
+  <div class="hr-small"></div>
 
   <ul>
     <li>6 liter jordgubbar</li>
@@ -28,7 +29,7 @@
   <div class="hr-big"></div>
 
   <h3>Jordgubb- och flädersaft</h3>
-  <div class="hr-small-underline"></div>
+  <div class="hr-small"></div>
 
   <ul>
     <li>25 st fläderblommor</li>
@@ -52,7 +53,7 @@
   <div class="hr-big"></div>
 
   <h3>Jordgubbsmarmelad</h3>
-  <div class="hr-small-underline"></div>
+  <div class="hr-small"></div>
 
   <ul>
     <li>1 kg jordgubbar</li>
@@ -76,7 +77,7 @@
   <div class="hr-big"></div>
 
   <h3>Jordgubbskräm</h3>
-  <div class="hr-small-underline"></div>
+  <div class="hr-small"></div>
 
 
   <ul>
@@ -97,7 +98,7 @@
   <div class="hr-big"></div>
 
   <h3>Rårörd jordgubbssylt</h3>
-  <div class="hr-small-underline"></div>
+  <div class="hr-small"></div>
 
   <ul>
     <li>3 kg bär</li>
@@ -118,7 +119,7 @@
   <div class="hr-big"></div>
 
   <h3>Jordgubbar med limesocker</h3>
-  <div class="hr-small-underline"></div>
+  <div class="hr-small"></div>
 
   <ul>
     <li>1 liter jordgubbar</li>

@@ -1,7 +1,7 @@
 <!-- content -->
 <section class="kontakt-site first-section">
 
-  <h2>Hitta hit</h2>
+  <h1>Hitta hit</h1>
   <div class="hr-small-underline"></div>
   <h3 class="lead">Välkomna till Stenatorp och familjen Stenseke.</h3>
 

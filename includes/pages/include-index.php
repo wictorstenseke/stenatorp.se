@@ -2,21 +2,6 @@
   <h1>Välkomna till Stenatorp och familjen Stenseke!</h1>
 </section>
 
-  <section class="sjalvplock">
-    <a href="sjalvplock.php"><h1>Självplockning</h1></a>
-    <div class="hr-small-underline"></div>
-    <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
-    <div class="text-ruta">
-      <h2>Öppettider:</h2>
-      <h3>Måndag - Lördag</h3>
-      <h3>08:00 - 12:00</h3>
-    </div>
-    <p>På måndagar och onsdagar även kvällsöppet mellan kl. 16:00 och 19:00.</p>
-    <p>Reservation för att bären ibland inte räcker till alla.</p>
-    <a class="button-xs" href="sjalvplock.php">Läs mer</a>
-    <div class="hr-big"></div>
-  </section>
-
   <section class="forsaljning">
     <a href="forsaljning.php"><h1>Försäljning</h1></a>
     <div class="hr-small-underline"></div>
@@ -30,6 +15,21 @@
     <p>Alltid dagsfärska bär som säljs i literkartong.</p>
     <p>Kontant betalning eller banköverförning via Swish. (0705-332035)</p>
     <a class="button-xs" href="forsaljning.php">Läs mer</a>
+    <div class="hr-big"></div>
+  </section>
+
+  <section class="sjalvplock">
+    <a href="sjalvplock.php"><h1>Självplockning</h1></a>
+    <div class="hr-small-underline"></div>
+    <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
+    <div class="text-ruta">
+      <h2>Öppettider:</h2>
+      <h3>Måndag - Lördag</h3>
+      <h3>08:00 - 12:00</h3>
+    </div>
+    <p>På måndagar och onsdagar även kvällsöppet mellan kl. 16:00 och 19:00.</p>
+    <p>Reservation för att bären ibland inte räcker till alla.</p>
+    <a class="button-xs" href="sjalvplock.php">Läs mer</a>
   </section>
 
 <section class="citat">

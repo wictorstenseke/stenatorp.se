@@ -14,6 +14,7 @@
       <a class="active-link" href="forsaljning.php">Försäljning</a>
       <a href="sjalvplock.php">Självplock</a>
       <a href="kontakt.php">Kontakt / Hitta hit</a>
+      <a href="recept.php">Recept</a>
     </nav>
 
   </div>
@@ -25,6 +26,8 @@
       <a href="sjalvplock.php"><li>Självplock</li></a>
       <div class="hr-small-nav"></div>
       <a href="kontakt.php"><li>Kontakt / Hitta hit</li></a>
+      <div class="hr-small-nav"></div>
+      <a href="recept.php"><li>Recept</li></a>
       <div class="hr-small-nav-last"></div>
   </div>
 

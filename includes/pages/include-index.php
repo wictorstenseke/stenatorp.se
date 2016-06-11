@@ -26,9 +26,10 @@
       <h2>Öppettider:</h2>
       <h3>Måndag - Lördag</h3>
       <h3>08:00 - 12:00</h3>
+      <p>På måndagar och onsdagar även kvällsöppet mellan kl. 16:00 och 19:00.</p>
+      <p>Reservation för att bären ibland inte räcker till alla.</p>
     </div>
-    <p>På måndagar och onsdagar även kvällsöppet mellan kl. 16:00 och 19:00.</p>
-    <p>Reservation för att bären ibland inte räcker till alla.</p>
+
     <a class="button-xs" href="sjalvplock.php">Läs mer</a>
   </section>
 

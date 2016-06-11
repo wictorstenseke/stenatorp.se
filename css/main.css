@@ -414,7 +414,7 @@ p {
 a {
   text-decoration: none; }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 770px) {
   body {
     padding-top: 65px; } }
 @media only screen and (max-width: 413px) {
@@ -562,7 +562,7 @@ header {
       margin: 35px 30px 0 0; }
       .navbar-fixed .navigation-wrap nav a {
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 25px;
         font-weight: 600;
         color: #4b4b4b;
         text-decoration: none; }
@@ -585,7 +585,7 @@ header {
           color: #222;
           text-decoration: underline; }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 770px) {
   .medium-nav {
     display: none; }
 
@@ -596,7 +596,7 @@ header {
     margin: 17px 0 0 30px; }
     .navbar-fixed .navigation-wrap .logo img {
       width: 170px; } }
-@media only screen and (min-width: 741px) {
+@media only screen and (min-width: 771px) {
   .menu-toggle {
     display: none; } }
 .header {
@@ -698,6 +698,11 @@ footer {
 @media only screen and (max-width: 350px) {
   .kontakt-info .adress h3 {
     font-size: 24px; } }
+ol {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0px; }
+
 ul {
   list-style: none;
   max-width: 540px;
@@ -722,3 +727,6 @@ ul {
     width: 100%;
     height: auto;
     margin-bottom: -25px; }
+
+.recept-text {
+  margin-top: 30px; }

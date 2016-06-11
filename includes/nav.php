@@ -21,13 +21,13 @@
 
   <div class="mobil-nav">
       <div class="hr-small-nav"></div>
-      <a href="forsaljning.php"><li>Försäljning</li></a>
+      <a href="forsaljning.php"><li class="<?php echo ($page == "forsaljning" ? "active" : "")?>">Försäljning</li></a>
       <div class="hr-small-nav"></div>
-      <a href="sjalvplock.php"><li>Självplock</li></a>
+      <a href="sjalvplock.php"><li class="<?php echo ($page == "sjalvplock" ? "active" : "")?>">Självplock</li></a>
       <div class="hr-small-nav"></div>
-      <a href="kontakt.php"><li>Kontakt / Hitta hit</li></a>
+      <a href="kontakt.php"><li class="<?php echo ($page == "kontakt" ? "active" : "")?>">Kontakt / Hitta hit</li></a>
       <div class="hr-small-nav"></div>
-      <a href="recept.php"><li>Recept</li></a>
+      <a href="recept.php"><li class="<?php echo ($page == "recept" ? "active" : "")?>">Recept</li></a>
       <div class="hr-small-nav-last"></div>
   </div>
 

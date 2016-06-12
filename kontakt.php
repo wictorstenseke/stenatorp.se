@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<?php include "includes/intro-comment.php" ?>
 <html lang="sv">
 
 <head>
-  <title>Kontakt &amp Hitta hit | Stenatorp.se</title>
+  <title>Kontakt &amp; Hitta hit | Stenatorp.se</title>
   <meta name="description" content="Välkomna till Stenatorp och familjen Stenseke.">
   <!-- include all genereal HEAD-stuff -->
   <?php include "includes/head.php" ?>

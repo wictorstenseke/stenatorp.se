@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include "includes/intro-comment.php" ?>
 <html lang="sv">
 
 <head>

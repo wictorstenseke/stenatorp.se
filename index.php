@@ -10,7 +10,8 @@
 </head>
 
 <body>
-
+  <?php include_once("analyticstracking.php") ?>
+  <?php $page = "index"; ?>
   <?php include "includes/nav.php" ?>
 
   <div class="wrapper">

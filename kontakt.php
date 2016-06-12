@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <?php include_once("analyticstracking.php") ?>
   <?php $page = "kontakt"; ?>
   <?php
     include "includes/nav.php"

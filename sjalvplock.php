@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="sv">
-<?php include "includes/head.php" ?>
+
+<head>
+  <title>Självplock | Stenatorp.se</title>
+  <meta name="description" content="Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.">
+  <!-- include all genereal HEAD-stuff -->
+  <?php include "includes/head.php" ?>
+</head>
 
 <body>
   <?php $page = "sjalvplock"; ?>

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="sv">
-<?php include "includes/head.php" ?>
+
+<head>
+  <title>Recept | Stenatorp.se</title>
+  <meta name="description" content="Här bjuder vi på några av våra egna jordgubbsrecept!">
+  <!-- include all genereal HEAD-stuff -->
+  <?php include "includes/head.php" ?>
+</head>
 
 <body>
   <?php $page = "recept"; ?>

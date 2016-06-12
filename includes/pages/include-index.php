@@ -27,7 +27,7 @@
   </section>
 
   <section class="sjalvplock">
-    <a href="sjalvplock.php"><h1>Självplockning</h1></a>
+    <a href="sjalvplock.php"><h1>Självplock</h1></a>
     <div class="hr-small-underline"></div>
     <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 

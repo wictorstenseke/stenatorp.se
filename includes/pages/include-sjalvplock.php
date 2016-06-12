@@ -1,6 +1,6 @@
 <!-- content -->
 <section class="sjalvplock-site first-section">
-  <h1>Självplockning</h1>
+  <h1>Självplock</h1>
   <div class="hr-small-underline"></div>
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 

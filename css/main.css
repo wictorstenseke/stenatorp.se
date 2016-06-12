@@ -593,6 +593,7 @@ header {
         display: inline-block;
         margin-left: 25px;
         font-weight: 600;
+        font-size: 1.08em;
         color: #4b4b4b;
         text-decoration: none; }
         .navbar-fixed .navigation-wrap nav a:hover {
@@ -608,6 +609,7 @@ header {
     box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2); }
     .navbar-fixed .mobil-nav a {
       font-weight: 600;
+      font-size: 1.25em;
       color: #4b4b4b;
       text-decoration: none; }
       .navbar-fixed .mobil-nav a li {

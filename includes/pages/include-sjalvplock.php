@@ -7,7 +7,6 @@
   <div class="info-ruta">
     <h3>Info - 2016-06-10</h3>
     <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
-    <p><strong>Välkomna!</strong></p>
   </div>
   <p>Vi odlar huvudsakligen sorten Polka som är en söt medelsen sort med
      genomröda bär. Tidigt på säsongen finns även en mindre mängd av sorten Zefyr.</p>

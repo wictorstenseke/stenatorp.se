@@ -18,6 +18,7 @@
     <h3>Stenatorp 1</h3>
     <h3>447 94 VÅRGÅRDA</h3>
     <div class="hr-small"></div>
+    <h3><a href="mailto:info@stenatorp.se">info@stenatorp.se</a></h3>
     <h3>0322 - 66 41 46</h3>
     <h3>0706 - 29 50 63</h3>
   </div>

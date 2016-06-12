@@ -3,13 +3,19 @@
   <h1>Självplockning</h1>
   <div class="hr-small-underline"></div>
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
+
+  <div class="info-ruta">
+    <h3>Info - 2016-06-10</h3>
+    <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
+    <p><strong>Välkomna!</strong></p>
+  </div>
   <p>Vi odlar huvudsakligen sorten Polka som är en söt medelsen sort med
      genomröda bär. Tidigt på säsongen finns även en mindre mängd av sorten Zefyr.</p>
   <p>Ni får en egen rad där Ni plockar bären i egna kärl. Vi väger kärlen före
     och efter skörd och man betalar per kg jordgubbar man plockat.</p>
   <div class="text-ruta">
-    <h2>Aktuellt pris 36 kr/kg.</h2>
-    <h3>(ca. 18 kr/liter.)</h3>
+    <h2>Aktuellt pris XX kr/XX.</h2>
+    <!-- <h3>(ca. 18 kr/liter.)</h3> -->
     <h3>Välkomna!</h3>
   </div>
   <div class="betalsatt">

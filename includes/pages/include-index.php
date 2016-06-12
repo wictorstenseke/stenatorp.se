@@ -8,6 +8,13 @@
     <h3 class="lead">Välkommen att handla dagsfärska jordgubbar i vår gårdsbutik.</h3>
     <p>Välkommen till vår gårdsbutik som är öppen varje dag från kl. 09:00
        och så länge jordgubbarna räcker.</p>
+
+    <div class="info-ruta">
+      <h3>Info - 2016-06-10</h3>
+      <p>Butiken är öppen!</p>
+      <p><strong>Välkomna!</strong></p>
+    </div>
+
     <div class="text-ruta">
       <h2>Aktuellt pris 35 kr/liter.</h2>
       <h3>(3 askar 100kr)</h3>
@@ -23,6 +30,13 @@
     <a href="sjalvplock.php"><h1>Självplockning</h1></a>
     <div class="hr-small-underline"></div>
     <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
+
+    <div class="info-ruta">
+      <h3>Info - 2016-06-10</h3>
+      <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
+      <p><strong>Välkomna!</strong></p>
+    </div>
+
     <div class="text-ruta">
       <h2>Öppettider:</h2>
       <h3>Måndag - Lördag</h3>

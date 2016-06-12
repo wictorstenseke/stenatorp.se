@@ -4,6 +4,12 @@
   <div class="hr-small-underline"></div>
   <h3 class="lead">Välkommen att handla dagsfärska jordgubbar i vår gårdsbutik.</h3>
 
+  <div class="info-ruta">
+    <h3>Info - 2016-06-10</h3>
+    <p>Butiken är öppen!</p>
+    <p><strong>Välkomna!</strong></p>
+  </div>
+
   <div class="text-ruta">
     <h2>Öppettider:</h2>
     <h3>Varje dag från 09:00 och så länge bären räcker.</h3>
@@ -23,8 +29,8 @@
   <p>Önskar du större mängd av bär kan Du under högsäsong beställa färdigplockade bär
     i lösvikt. Minsta mängd 5 kg. Beställning görs på telefon enligt nedan.</p>
   <div class="text-ruta">
-    <h2>Aktuellt pris 48 kr/kg.</h2>
-    <h3>(ca. 24 kr/liter)</h3>
+    <h2>Aktuellt pris XXXX kr/kg.</h2>
+    <!-- <h3>(ca. 24 kr/liter)</h3> -->
     <div class="hr-big"></div>
     <h3>Mer information på:</h3>
     <h3>0322 - 66 41 46</h3>

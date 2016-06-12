@@ -378,7 +378,7 @@ html {
 body {
   background-color: #f3f3f3;
   font-family: "Open Sans", arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 90px; }
 
 .wrapper {
@@ -409,7 +409,7 @@ p {
   font-size: 18px;
   max-width: 540px;
   text-align: left;
-  margin: 0 auto; }
+  margin: 6px auto 0px auto; }
 
 a {
   text-decoration: none; }
@@ -488,6 +488,22 @@ a {
       color: #222;
       text-decoration: underline; }
 
+.info-ruta {
+  margin: 20px auto 20px auto;
+  max-width: 95%;
+  padding-bottom: 10px;
+  border: 2px solid #B3250D;
+  border-radius: 5px; }
+  .info-ruta h3 {
+    color: #ffffff;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 5px 0;
+    background-color: #B3250D; }
+  .info-ruta p {
+    padding: 1px 25px;
+    font-size: 0.9em; }
+
 .lead {
   text-align: center;
   margin-top: -15px;
@@ -528,6 +544,9 @@ a {
 @media only screen and (min-width: 580px) {
   .text-ruta {
     max-width: 540px; }
+
+  .info-ruta {
+    max-width: 400px; }
 
   .betalsatt .swish {
     max-height: 60px; }
@@ -656,7 +675,7 @@ header {
   .citat {
     padding: 70px 0 70px 0px; } }
 footer {
-  padding: 20px;
+  padding: 17px;
   background-color: #B3250D;
   background-image: -webkit-linear-gradient(left, #B3250D, #ED3112);
   background-image: linear-gradient(to right,#B3250D, #ED3112);
@@ -689,7 +708,7 @@ footer {
   footer img {
     width: 60px;
     height: auto;
-    margin: 30px 0 30px 0; }
+    margin: 20px 0 10px 0; }
   footer p {
     font-weight: 600;
     color: #ffffff; }

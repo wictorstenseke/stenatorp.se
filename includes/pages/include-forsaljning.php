@@ -6,8 +6,13 @@
 
   <div class="info-ruta">
     <h3>Info - 2016-06-10</h3>
-    <p>Butiken är öppen!</p>
+    <p>Gårdsbutiken har öppnat för säsongen!</p>
     <p><strong>Välkomna!</strong></p>
+  </div>
+
+  <div class="bildbox">
+    <img src="img/salj-i-garaget.jpg" alt="Gårdsbutikens köpdisk.">
+    <p class="figurtext">Gårdsbutikens köpdisk.</p>
   </div>
 
   <div class="text-ruta">

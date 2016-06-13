@@ -9,7 +9,7 @@
   <p>Välkommen till vår gårdsbutik som är öppen varje dag från kl. 09:00
      och så länge jordgubbarna räcker.</p>
 
-  <div class="info-ruta">
+  <div class="info-ruta-green">
     <h3>Info - 2016-06-10</h3>
     <p>Gårdsbutiken har öppnat för säsongen!</p>
     <p><strong>Välkomna!</strong></p>
@@ -36,7 +36,7 @@
   <div class="hr-small-underline"></div>
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 
-  <div class="info-ruta">
+  <div class="info-ruta-red">
     <h3>Info - 2016-06-10</h3>
     <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
   </div>

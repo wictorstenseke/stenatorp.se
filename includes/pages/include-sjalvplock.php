@@ -4,25 +4,30 @@
   <div class="hr-small-underline"></div>
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 
-  <div class="info-ruta">
+  <div class="info-ruta-red">
     <h3>Info - 2016-06-10</h3>
     <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
   </div>
+
   <p>Vi odlar huvudsakligen sorten Polka som är en söt medelsen sort med
      genomröda bär. Tidigt på säsongen finns även en mindre mängd av sorten Zefyr.</p>
   <p>Ni får en egen rad där Ni plockar bären i egna kärl. Vi väger kärlen före
     och efter skörd och man betalar per kg jordgubbar man plockat.</p>
+
   <div class="text-ruta">
     <h2>Aktuellt pris XX kr/XX.</h2>
     <!-- <h3>(ca. 18 kr/liter.)</h3> -->
     <h3>Välkomna!</h3>
   </div>
+
   <div class="betalsatt">
     <img class="swish" src="img/swish-logo.png" alt="Swish logotype.">
     <img class="izettle" src="img/izettle-icon.png" alt="iZettle logotype.">
   </div>
+
   <p>Betalning <strong>kontant, överföring med Swish eller med kort.</strong></p>
   <div class="hr-big"></div>
+
   <h2>Att tänka på:</h2>
   <div class="hr-small-underline"></div>
   <ul>
@@ -30,6 +35,7 @@
     <li><span>Lämpliga skor och ev. regnskydd. Det kan vara blött i landet.</span></li>
     <li><span>Vid varma dagar, tag gärna med något att dricka.</span></li>
   </ul>
+
   <div class="text-ruta">
     <h2>Öppettider:</h2>
     <h3>Måndag - Lördag</h3>
@@ -41,5 +47,6 @@
     <h3>0322 - 66 41 46</h3>
     <h3>0706 - 29 50 63</h3>
   </div>
+
 </section>
 <!-- /content -->

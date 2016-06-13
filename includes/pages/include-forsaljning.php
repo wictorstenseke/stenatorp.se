@@ -4,7 +4,7 @@
   <div class="hr-small-underline"></div>
   <h3 class="lead">Välkommen att handla dagsfärska jordgubbar i vår gårdsbutik.</h3>
 
-  <div class="info-ruta">
+  <div class="info-ruta-green">
     <h3>Info - 2016-06-10</h3>
     <p>Gårdsbutiken har öppnat för säsongen!</p>
     <p><strong>Välkomna!</strong></p>
@@ -12,7 +12,7 @@
 
   <div class="bildbox">
     <img src="img/stenatorp-5.jpg" alt="Gårdsbutikens köpdisk.">
-    <p class="figurtext">Gårdsbutikens köpdisk.</p>
+    <!-- <p class="figurtext">Gårdsbutikens köpdisk.</p> -->
   </div>
 
   <div class="text-ruta">

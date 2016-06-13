@@ -72,7 +72,7 @@
       color: #222
       text-decoration: underline
 
-.info-ruta
+.info-ruta-red
   margin: 25px auto 30px auto
   max-width: 80%
   padding-bottom: 10px
@@ -84,6 +84,22 @@
     max-width: 100%
     padding: 5px 0
     background-color: $primary-color
+  p
+    padding: 1px 25px
+    font-size: 0.95em
+
+.info-ruta-green
+  margin: 25px auto 30px auto
+  max-width: 80%
+  padding-bottom: 10px
+  border: 2px solid green
+  border-radius: 5px
+  h3
+    color: $white
+    margin: 0 auto 10px auto
+    max-width: 100%
+    padding: 5px 0
+    background-color: green
   p
     padding: 1px 25px
     font-size: 0.95em
@@ -116,7 +132,9 @@
 @media only screen and (min-width: $xs-min-bp)
   .text-ruta
     max-width: 540px
-  .info-ruta
+  .info-ruta-red
+    max-width: 380px
+  .info-ruta-green
     max-width: 380px
   .betalsatt
     .swish

@@ -11,7 +11,7 @@
   </div>
 
   <div class="bildbox">
-    <img src="img/salj-i-garaget.jpg" alt="Gårdsbutikens köpdisk.">
+    <img src="img/stenatorp-5.jpg" alt="Gårdsbutikens köpdisk.">
     <p class="figurtext">Gårdsbutikens köpdisk.</p>
   </div>
 

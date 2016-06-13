@@ -16,7 +16,7 @@
   </div>
 
   <div class="bildbox">
-    <img src="img/stenatorp-3.jpg" alt="">
+    <img src="img/stenatorp-2.jpg" alt="">
     <p class="figurtext">Sväng upp på gården för att handla i gårdsbutiken.</p>
   </div>
 

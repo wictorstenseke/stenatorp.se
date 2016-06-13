@@ -652,7 +652,7 @@ header {
   background-image: url(../img/stenatorp-2.jpg);
   background-size: cover;
   background-position: right center;
-  height: 320px;
+  height: 200px;
   max-width: 100%;
   padding: 20px;
   display: -webkit-box;
@@ -673,6 +673,12 @@ header {
 @media only screen and (max-width: 413px) {
   .header h1 {
     font-size: 2em; } }
+@media only screen and (min-width: 414px) {
+  .header {
+    height: 250px; } }
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 300px; } }
 .citat {
   background-color: #B3250D;
   background-image: -webkit-linear-gradient(left, #B3250D, #ED3112);

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <?php include_once("analyticstracking.php") ?>
+  <?php include_once("includes/analyticstracking.php") ?>
   <?php $page = "sjalvplock"; ?>
   <?php
     include "includes/nav.php"

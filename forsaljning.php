@@ -12,9 +12,7 @@
 <body>
   <?php include_once("includes/analyticstracking.php") ?>
   <?php $page = "forsaljning"; ?>
-  <?php
-    include "includes/nav.php"
-  ?>
+  <?php include "includes/nav.php"?>
 
   <div class="wrapper">
 

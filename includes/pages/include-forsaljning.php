@@ -5,7 +5,7 @@
   <h3 class="lead">Välkommen att handla dagsfärska jordgubbar i vår gårdsbutik.</h3>
 
   <div class="info-ruta-green">
-    <h3>Info - 2016-06-10</h3>
+    <h3>Info - 10 JUNI 2016</h3>
     <p>Gårdsbutiken har öppnat för säsongen!</p>
     <p><strong>Välkomna!</strong></p>
   </div>

@@ -10,7 +10,7 @@
      och så länge jordgubbarna räcker.</p>
 
   <div class="info-ruta-green">
-    <h3>Info - 2016-06-10</h3>
+    <h3>Info - 10 JUNI 2016</h3>
     <p>Gårdsbutiken har öppnat för säsongen!</p>
     <p><strong>Välkomna!</strong></p>
   </div>
@@ -26,7 +26,7 @@
     <h3>Välkomna!</h3>
   </div>
   <p>Alltid dagsfärska bär som säljs i literkartong.</p>
-  <p>Kontant betalning eller banköverförning via Swish. (0705-332035)</p>
+  <p>Kontant betalning eller banköverförning via Swish.<br>(0705-332035)</p>
   <a class="button-xs" href="forsaljning.php">Läs mer</a>
   <div class="hr-big"></div>
 </section>
@@ -37,7 +37,7 @@
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 
   <div class="info-ruta-red">
-    <h3>Info - 2016-06-10</h3>
+    <h3>Info - 10 JUNI 2016</h3>
     <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
   </div>
 

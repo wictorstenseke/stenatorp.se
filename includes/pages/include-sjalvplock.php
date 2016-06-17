@@ -5,7 +5,7 @@
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 
   <div class="info-ruta-red">
-    <h3>Info - 2016-06-10</h3>
+    <h3>Info - 10 JUNI 2016</h3>
     <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
   </div>
 

@@ -36,9 +36,10 @@
   <div class="hr-small-underline"></div>
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 
-  <div class="info-ruta-red">
-    <h3>Info - 10 JUNI 2016</h3>
-    <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
+  <div class="info-ruta-green">
+    <h3>Info - 19 JUNI 2016</h3>
+    <p>På tisdag den 21 juni drar självplocket igång. Därefter gäller ordinarie öppettider.</p>
+    <p><strong>OBS! Stängt på midsommardagen den 25 juni.</strong></p>
   </div>
 
   <div class="text-ruta">

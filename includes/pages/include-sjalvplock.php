@@ -4,9 +4,10 @@
   <div class="hr-small-underline"></div>
   <h3 class="lead">Plocka jordgubbarna själv i vårt jordgubbsland i Din egen takt.</h3>
 
-  <div class="info-ruta-red">
-    <h3>Info - 10 JUNI 2016</h3>
-    <p>Självplockningen beräknas komma igång veckan efter midsommar.</p>
+  <div class="info-ruta-green">
+    <h3>Info - 19 JUNI 2016</h3>
+    <p>På tisdag den 21 juni drar självplocket igång. Därefter gäller ordinarie öppettider.</p>
+    <p><strong>OBS! Stängt på midsommardagen den 25 juni.</strong></p>
   </div>
 
   <p>Vi odlar huvudsakligen sorten Polka som är en söt medelsen sort med
@@ -15,8 +16,8 @@
     och efter skörd och man betalar per kg jordgubbar man plockat.</p>
 
   <div class="text-ruta">
-    <h2>Aktuellt pris XX kr/XX.</h2>
-    <!-- <h3>(ca. 18 kr/liter.)</h3> -->
+    <h2>Aktuellt pris 40 kr/kg.</h2>
+    <h3>(ca. 20 kr/liter)</h3>
     <h3>Välkomna!</h3>
   </div>
 

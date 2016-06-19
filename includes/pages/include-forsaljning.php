@@ -28,19 +28,19 @@
     <h2>Aktuellt pris 35 kr/liter.</h2>
     <h3>(3 askar 100kr)</h3>
   </div>
-  <div class="hr-big"></div>
+  <!-- <div class="hr-big"></div>
   <h2>Beställa bär</h2>
   <div class="hr-small-underline"></div>
   <p>Önskar du större mängd av bär kan Du under högsäsong beställa färdigplockade bär
     i lösvikt. Minsta mängd 5 kg. Beställning görs på telefon enligt nedan.</p>
   <div class="text-ruta">
     <h2>Aktuellt pris XXXX kr/kg.</h2>
-    <!-- <h3>(ca. 24 kr/liter)</h3> -->
+    <h3>(ca. 24 kr/liter)</h3>
     <div class="hr-big"></div>
     <h3>Mer information på:</h3>
     <h3>0322 - 66 41 46</h3>
     <h3>0706 - 29 50 63</h3>
-  </div>
+  </div> -->
 
 </section>
 <!-- /content -->

@@ -21,4 +21,5 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
+  <link rel=”image_src” href=”img/profilbild.png” />
   <link rel="stylesheet" href="css/main.css">

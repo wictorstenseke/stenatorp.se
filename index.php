@@ -3,7 +3,7 @@
 <html lang="sv">
 
 <head>
-  <title>Stenatorp.se | Försäljning &amp; självplockning</title>
+  <title>Jordgubbar | Försäljning &amp; självplockning | Stenatorp.se</title>
   <meta name="description" content="Sedan mer än 20 år odlas det jordgubbar för försäljning och självplockning på gården Stenatorp, några kilometer utanför Vårgårda.">
   <!-- include all genereal HEAD-stuff -->
   <?php include "includes/head.php" ?>

@@ -372,10 +372,9 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-html {
-  -webkit-font-smoothing: antialiased; }
-
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: #f3f3f3;
   font-family: "Open Sans", arial, sans-serif;
   font-size: 16px;

@@ -9,7 +9,7 @@
   <p>Välkommen till vår gårdsbutik som är öppen varje dag från kl. 09:00
      och så länge jordgubbarna räcker.</p>
 
-  <div class="info-ruta-green">
+  <div class="info-ruta-red">
     <h3>Info - 10 JUNI 2016</h3>
     <p>Gårdsbutiken har öppnat för säsongen!</p>
     <p><strong>Välkomna!</strong></p>

@@ -1,0 +1,5511 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "ED84C7B1-E904-4114-AE2C-6069845374E2"
+		}
+	],
+"creatorBuild": "25479",
+"files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/04bc8daf494a2cf5cc1daa0dcfea88accaaa43b6\/_bourbon-deprecated-upcoming.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/04bc8daf494a2cf5cc1daa0dcfea88accaaa43b6\/_bourbon-deprecated-upcoming.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/04bc8daf494a2cf5cc1daa0dcfea88accaaa43b6\/_bourbon.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/04bc8daf494a2cf5cc1daa0dcfea88accaaa43b6\/_bourbon.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/citat.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/citat.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/footer.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/footer.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/forsaljning.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/forsaljning.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/header-home.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/header-home.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/kontakt.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/kontakt.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/nav.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/nav.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/sections-dir.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/sections-dir.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/sjalvplock.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/083c734f3c41b4937f06d457b9526a787da989b6\/sjalvplock.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/15f61d3d3c1bf1703a2c6e4419f04503f2b4a324\/_asset-pipeline.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/15f61d3d3c1bf1703a2c6e4419f04503f2b4a324\/_asset-pipeline.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/15f61d3d3c1bf1703a2c6e4419f04503f2b4a324\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/15f61d3d3c1bf1703a2c6e4419f04503f2b4a324\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/15f61d3d3c1bf1703a2c6e4419f04503f2b4a324\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/15f61d3d3c1bf1703a2c6e4419f04503f2b4a324\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/181195d567bcae474cc4ff146c534f413b35beb8\/_asset-pipeline.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/181195d567bcae474cc4ff146c534f413b35beb8\/_asset-pipeline.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/181195d567bcae474cc4ff146c534f413b35beb8\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/181195d567bcae474cc4ff146c534f413b35beb8\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/181195d567bcae474cc4ff146c534f413b35beb8\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/181195d567bcae474cc4ff146c534f413b35beb8\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/1b7e77c72b4679ddfe04b84bcf684cd664454f1e\/_disable-warnings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/1b7e77c72b4679ddfe04b84bcf684cd664454f1e\/_disable-warnings.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/1b7e77c72b4679ddfe04b84bcf684cd664454f1e\/_grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/1b7e77c72b4679ddfe04b84bcf684cd664454f1e\/_grid.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/1b7e77c72b4679ddfe04b84bcf684cd664454f1e\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/1b7e77c72b4679ddfe04b84bcf684cd664454f1e\/_visual-grid.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_convert-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_convert-units.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_directional-values.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_directional-values.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_font-source-declaration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_font-source-declaration.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_gradient-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_gradient-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-angle-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-angle-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-side-corner-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_linear-side-corner-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_radial-arg-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_radial-arg-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_radial-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_radial-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_radial-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_radial-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_render-gradients.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_render-gradients.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_shape-size-stripper.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_shape-size-stripper.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_str-to-num.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/2be1f24f3be6bacfae763bd4bd7e01b890c82683\/_str-to-num.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/base-dir.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/base-dir.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/base.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/base.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/media-queries.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/media-queries.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/typo.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/typo.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/typography.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/typography.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/variables.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/variables.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/4099b81abb81c212771a7406759db00c4f9b2ae5\/main.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/4099b81abb81c212771a7406759db00c4f9b2ae5\/main.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/_recept.sassc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/_recept.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/homepage.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/homepage.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/index.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/index.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/kontakt-site.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/kontakt-site.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/pages-dir.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/pages-dir.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/sjalvplock-site.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/sjalvplock-site.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/sjalvplock.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/42c425827c9d6df01f1458367e1b8b42a47909eb\/sjalvplock.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_animation.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_animation.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_appearance.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_appearance.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_backface-visibility.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_backface-visibility.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_background-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_background-image.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_background.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_background.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_border-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_border-image.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_calc.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_calc.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_columns.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_filter.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_filter.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_flex-box.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_flex-box.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_font-face.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_font-face.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_font-feature-settings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_font-feature-settings.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_hidpi-media-query.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_hidpi-media-query.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_hyphens.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_hyphens.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_image-rendering.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_image-rendering.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_keyframes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_keyframes.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_linear-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_linear-gradient.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_perspective.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_perspective.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_placeholder.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_placeholder.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_radial-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_radial-gradient.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_selection.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_selection.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_text-decoration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_text-decoration.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_transform.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_transform.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_transition.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_transition.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_user-select.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/489032db2699734d7d02990a38d7a324043e9b1a\/_user-select.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/4cfecd4bdef66472c720a6e9100c66bb4e627171\/_new-breakpoint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/4cfecd4bdef66472c720a6e9100c66bb4e627171\/_new-breakpoint.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/4cfecd4bdef66472c720a6e9100c66bb4e627171\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/4cfecd4bdef66472c720a6e9100c66bb4e627171\/_private.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/525b0a96a09c41cf8f1e3faea6a3552ea8871e0f\/plugins-dir.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/525b0a96a09c41cf8f1e3faea6a3552ea8871e0f\/plugins-dir.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_box-sizing.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_box-sizing.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_direction-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_direction-context.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_display-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_display-context.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_fill-parent.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_fill-parent.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_media.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_media.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_omega.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_omega.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_outer-container.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_outer-container.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_pad.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_pad.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_private.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_row.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_row.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_shift.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_shift.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_span-columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_span-columns.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_to-deprecate.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_to-deprecate.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5316e842180aa938cc787ccd55822be0fdeebca3\/_visual-grid.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5dad63f38c55e22310e8ebf594c30abe8292dc63\/_bourbon-deprecated-upcoming.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5dad63f38c55e22310e8ebf594c30abe8292dc63\/_bourbon-deprecated-upcoming.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/5dad63f38c55e22310e8ebf594c30abe8292dc63\/_bourbon.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/5dad63f38c55e22310e8ebf594c30abe8292dc63\/_bourbon.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/60ac281b3ba9ecea1a78473d727bcc1be1be59a4\/_disable-warnings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/60ac281b3ba9ecea1a78473d727bcc1be1be59a4\/_disable-warnings.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/60ac281b3ba9ecea1a78473d727bcc1be1be59a4\/_grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/60ac281b3ba9ecea1a78473d727bcc1be1be59a4\/_grid.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/60ac281b3ba9ecea1a78473d727bcc1be1be59a4\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/60ac281b3ba9ecea1a78473d727bcc1be1be59a4\/_visual-grid.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-color.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-color.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-radius.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-radius.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-style.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-style.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-width.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_border-width.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_clearfix.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_clearfix.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_ellipsis.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_ellipsis.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_font-stacks.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_font-stacks.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_hide-text.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_hide-text.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_margin.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_margin.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_padding.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_padding.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_position.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_position.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_retina-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_retina-image.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_size.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_text-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_text-inputs.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_timing-functions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_timing-functions.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_triangle.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_triangle.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_word-wrap.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/6dec63c1ea8f44b22a90054d02a4b57ca5905035\/_word-wrap.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_assign-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_assign-inputs.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_contains-falsy.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_contains-falsy.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_contains.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_contains.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-length.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-length.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-light.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-light.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-number.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-number.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_is-size.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_modular-scale.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_modular-scale.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_px-to-rem.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_px-to-rem.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_shade.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_shade.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_strip-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_strip-units.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_tint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_tint.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_transition-property-name.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_transition-property-name.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_unpack.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/7747cf992e022f2f1c0d3c1b0dc812298baf43ee\/_unpack.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/820cfd86ba32e7a585d8c9f9b0ddcb72b84a5624\/_neat-helpers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/820cfd86ba32e7a585d8c9f9b0ddcb72b84a5624\/_neat-helpers.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/820cfd86ba32e7a585d8c9f9b0ddcb72b84a5624\/_neat.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/820cfd86ba32e7a585d8c9f9b0ddcb72b84a5624\/_neat.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_convert-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_convert-units.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_directional-values.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_directional-values.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_font-source-declaration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_font-source-declaration.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_gradient-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_gradient-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-angle-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-angle-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-side-corner-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_linear-side-corner-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_radial-arg-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_radial-arg-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_radial-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_radial-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_radial-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_radial-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_render-gradients.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_render-gradients.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_shape-size-stripper.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_shape-size-stripper.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_str-to-num.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/8245b21d49f8b0c9aee61033f4e94614a5fc3fa6\/_str-to-num.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_box-sizing.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_box-sizing.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_direction-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_direction-context.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_display-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_display-context.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_fill-parent.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_fill-parent.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_media.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_media.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_omega.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_omega.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_outer-container.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_outer-container.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_pad.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_pad.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_private.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_row.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_row.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_shift.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_shift.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_span-columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_span-columns.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_to-deprecate.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_to-deprecate.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/83ba20fe06a38abc11e9dc63baff536e25005293\/_visual-grid.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8836ade0715b5c0be7dc854b92428d49ca4facd7\/components-dir.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/8836ade0715b5c0be7dc854b92428d49ca4facd7\/components-dir.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8836ade0715b5c0be7dc854b92428d49ca4facd7\/components.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/8836ade0715b5c0be7dc854b92428d49ca4facd7\/components.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/8f6278bed78d29102cd09549d4c33032d78cd5b3\/normalize.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/8f6278bed78d29102cd09549d4c33032d78cd5b3\/normalize.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/93c0122614ff36d1561568f77561159a7f048458\/tools-dir.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/93c0122614ff36d1561568f77561159a7f048458\/tools-dir.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/93c0122614ff36d1561568f77561159a7f048458\/typography.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/93c0122614ff36d1561568f77561159a7f048458\/typography.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_animation.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_animation.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_appearance.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_appearance.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_backface-visibility.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_backface-visibility.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_background-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_background-image.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_background.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_background.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_border-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_border-image.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_calc.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_calc.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_columns.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_filter.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_filter.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_flex-box.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_flex-box.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_font-face.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_font-face.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_font-feature-settings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_font-feature-settings.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_hidpi-media-query.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_hidpi-media-query.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_hyphens.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_hyphens.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_image-rendering.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_image-rendering.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_keyframes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_keyframes.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_linear-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_linear-gradient.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_perspective.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_perspective.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_placeholder.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_placeholder.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_radial-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_radial-gradient.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_selection.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_selection.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_text-decoration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_text-decoration.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_transform.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_transform.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_transition.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_transition.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_user-select.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/a51096c0772317baa4a33a09156d64fa837ec442\/_user-select.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/b9ab47a07590fe3312d8e81d6ecd85f942cf6a90\/_neat-helpers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/b9ab47a07590fe3312d8e81d6ecd85f942cf6a90\/_neat-helpers.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/b9ab47a07590fe3312d8e81d6ecd85f942cf6a90\/_neat.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/b9ab47a07590fe3312d8e81d6ecd85f942cf6a90\/_neat.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/c227c9abb00d3cf6e9731b2af9aee9f9444d597a\/normalize.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/c227c9abb00d3cf6e9731b2af9aee9f9444d597a\/normalize.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/c423904b52a0a1164cd15ae45c1fd34d8c1b89d1\/buttons.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/c423904b52a0a1164cd15ae45c1fd34d8c1b89d1\/buttons.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/c423904b52a0a1164cd15ae45c1fd34d8c1b89d1\/elements.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/c423904b52a0a1164cd15ae45c1fd34d8c1b89d1\/elements.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/c423904b52a0a1164cd15ae45c1fd34d8c1b89d1\/modules-dir.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/.sass-cache\/c423904b52a0a1164cd15ae45c1fd34d8c1b89d1\/modules-dir.sassc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-color.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-color.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-radius.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-radius.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-style.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-style.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-width.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_border-width.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_clearfix.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_clearfix.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_ellipsis.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_ellipsis.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_font-stacks.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_font-stacks.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_hide-text.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_hide-text.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_margin.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_margin.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_padding.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_padding.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_position.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_position.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_retina-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_retina-image.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_size.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_text-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_text-inputs.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_timing-functions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_timing-functions.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_triangle.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_triangle.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_word-wrap.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/cd5cc5f836f68d5a397b4586c12ee0be8e36bff2\/_word-wrap.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_assign-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_assign-inputs.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_contains-falsy.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_contains-falsy.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_contains.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_contains.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-length.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-length.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-light.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-light.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-number.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-number.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_is-size.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_modular-scale.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_modular-scale.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_px-to-rem.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_px-to-rem.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_shade.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_shade.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_strip-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_strip-units.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_tint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_tint.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_transition-property-name.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_transition-property-name.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_unpack.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/d1f118ea10963f0e4603c1d75a1c141d40894fbe\/_unpack.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/f11f431ee5012adef9d146ffbb21d34f8ea95d08\/_new-breakpoint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/f11f431ee5012adef9d146ffbb21d34f8ea95d08\/_new-breakpoint.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/f11f431ee5012adef9d146ffbb21d34f8ea95d08\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/f11f431ee5012adef9d146ffbb21d34f8ea95d08\/_private.scssc",
+		"oF": 0
+		},
+	"\/css\/0-tools\/bourbon\/_bourbon-deprecated-upcoming.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/css\/_bourbon-deprecated-upcoming.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/_bourbon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/css\/_bourbon.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_border-color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_border-color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_border-radius.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_border-radius.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_border-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_border-style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_border-width.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_border-width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_clearfix.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_clearfix.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_ellipsis.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_ellipsis.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_font-stacks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_font-stacks.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_hide-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_hide-text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_margin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_margin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_padding.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_padding.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_position.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_position.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_prefixer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_prefixer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_retina-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_retina-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_text-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_text-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_timing-functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_timing-functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_triangle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_triangle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/addons\/_word-wrap.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_word-wrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_animation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_appearance.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_appearance.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_backface-visibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_backface-visibility.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_background-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_background-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_background.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_background.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_border-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_border-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_calc.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_calc.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_columns.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_columns.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_filter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_filter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_flex-box.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_flex-box.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_font-face.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_font-face.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_font-feature-settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_font-feature-settings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_hidpi-media-query.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_hidpi-media-query.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_hyphens.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_hyphens.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_image-rendering.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_image-rendering.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_keyframes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_keyframes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_linear-gradient.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_linear-gradient.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_perspective.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_perspective.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_placeholder.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_placeholder.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_radial-gradient.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_radial-gradient.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_selection.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_selection.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_text-decoration.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_text-decoration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_transform.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_transform.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_transition.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_transition.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/css3\/_user-select.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_user-select.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_assign-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_assign-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_contains-falsy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_contains-falsy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_contains.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_contains.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_is-length.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_is-length.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_is-light.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_is-light.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_is-number.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_is-number.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_is-size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_is-size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_modular-scale.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_modular-scale.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_px-to-em.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_px-to-em.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_px-to-rem.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_px-to-rem.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_shade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_shade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_strip-units.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_strip-units.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_tint.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_tint.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_transition-property-name.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_transition-property-name.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/functions\/_unpack.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_unpack.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_convert-units.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_convert-units.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_directional-values.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_directional-values.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_font-source-declaration.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_font-source-declaration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_gradient-positions-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_gradient-positions-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_linear-angle-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_linear-angle-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_linear-gradient-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_linear-gradient-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_linear-positions-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_linear-positions-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_linear-side-corner-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_linear-side-corner-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_radial-arg-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_radial-arg-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_radial-gradient-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_radial-gradient-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_radial-positions-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_radial-positions-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_render-gradients.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_render-gradients.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_shape-size-stripper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_shape-size-stripper.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/helpers\/_str-to-num.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_str-to-num.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/settings\/_asset-pipeline.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_asset-pipeline.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/settings\/_prefixer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_prefixer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/bourbon\/settings\/_px-to-em.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/bourbon\/css\/_px-to-em.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/_neat-helpers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/css\/_neat-helpers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/_neat.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/css\/_neat.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/functions\/_new-breakpoint.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_new-breakpoint.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/functions\/_private.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_private.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_box-sizing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_box-sizing.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_direction-context.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_direction-context.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_display-context.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_display-context.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_fill-parent.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_fill-parent.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_media.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_media.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_omega.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_omega.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_outer-container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_outer-container.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_pad.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_pad.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_private.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_private.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_row.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_row.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_shift.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_shift.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_span-columns.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_span-columns.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_to-deprecate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_to-deprecate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/grid\/_visual-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_visual-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/settings\/_disable-warnings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_disable-warnings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/settings\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/neat\/settings\/_visual-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/neat\/css\/_visual-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/normalize\/normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/0-tools\/css\/normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/0-tools\/tools-dir.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/tools-dir.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/1-base\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/typo.sassc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/1-base\/.sass-cache\/31cab8bee05d0c3d2fa1d87ffdacf38d0ec2303c\/typo.sassc",
+		"oF": 0
+		},
+	"\/css\/1-base\/base-dir.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/base-dir.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/1-base\/base.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/1-base\/typography.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/1-base\/variables.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/2-components\/components-dir.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/components-dir.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/2-components\/components.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/components.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-sections\/citat.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/citat.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-sections\/footer.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-sections\/header-home.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/header-home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-sections\/nav.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-sections\/sections-dir.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/sections-dir.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/4-pages\/_recept.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_recept.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/4-pages\/index.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/4-pages\/kontakt-site.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/kontakt-site.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/4-pages\/pages-dir.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/pages-dir.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/4-pages\/sjalvplock-site.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/sjalvplock-site.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/main.css.map",
+		"oF": 0
+		},
+	"\/css\/main.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/favicons\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8188,
+		"oA": 0,
+		"oAP": "\/favicons\/android-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 9468,
+		"oA": 0,
+		"oAP": "\/favicons\/android-icon-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 1912,
+		"oA": 0,
+		"oAP": "\/favicons\/android-icon-36x36.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 2888,
+		"oA": 0,
+		"oAP": "\/favicons\/android-icon-48x48.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4105,
+		"oA": 0,
+		"oAP": "\/favicons\/android-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 5398,
+		"oA": 0,
+		"oAP": "\/favicons\/android-icon-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 6327,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-114x114.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 6728,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-120x120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8188,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 8774,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-152x152.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 10671,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3354,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-57x57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 3489,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-60x60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4105,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 4272,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-76x76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 10044,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon-precomposed.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 10044,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1226,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1761,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 5398,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/favicons\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8188,
+		"oA": 0,
+		"oAP": "\/favicons\/ms-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 8583,
+		"oA": 0,
+		"oAP": "\/favicons\/ms-icon-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 23314,
+		"oA": 0,
+		"oAP": "\/favicons\/ms-icon-310x310.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicons\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 3992,
+		"oA": 0,
+		"oAP": "\/favicons\/ms-icon-70x70.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/forsaljning.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/forsaljning.php",
+		"oF": 0
+		},
+	"\/img\/dagsfarska-bar.jpg": {
+		"ft": 16384,
+		"iS": 205666,
+		"oA": 0,
+		"oAP": "\/img\/dagsfarska-bar.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/facebook-logo2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/facebook-logo2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/izettle-icon.png": {
+		"ft": 32768,
+		"iS": 7078,
+		"oA": 0,
+		"oAP": "\/img\/izettle-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/karta-stenatorp.gif": {
+		"ft": 4194304,
+		"iS": 43928,
+		"oA": 0,
+		"oAP": "\/img\/karta-stenatorp.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logostenatorp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logostenatorp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/menu-toggle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/menu-toggle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/profilbild.png": {
+		"ft": 32768,
+		"iS": 105126,
+		"oA": 0,
+		"oAP": "\/img\/profilbild.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/salj-i-garaget.jpg": {
+		"ft": 16384,
+		"iS": 220297,
+		"oA": 0,
+		"oAP": "\/img\/salj-i-garaget.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/stenatorp-1.jpg": {
+		"ft": 16384,
+		"iS": 130431,
+		"oA": 0,
+		"oAP": "\/img\/stenatorp-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/stenatorp-2.jpg": {
+		"ft": 16384,
+		"iS": 197326,
+		"oA": 0,
+		"oAP": "\/img\/stenatorp-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/stenatorp-3.jpg": {
+		"ft": 16384,
+		"iS": 196809,
+		"oA": 0,
+		"oAP": "\/img\/stenatorp-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/stenatorp-4.jpg": {
+		"ft": 16384,
+		"iS": 102929,
+		"oA": 0,
+		"oAP": "\/img\/stenatorp-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/stenatorp-5.jpg": {
+		"ft": 16384,
+		"iS": 79554,
+		"oA": 0,
+		"oAP": "\/img\/stenatorp-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/swish-logo.png": {
+		"ft": 32768,
+		"iS": 17918,
+		"oA": 0,
+		"oAP": "\/img\/swish-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/includes\/analyticstracking.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/analyticstracking.php",
+		"oF": 0
+		},
+	"\/includes\/footer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/footer.php",
+		"oF": 0
+		},
+	"\/includes\/head.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/head.php",
+		"oF": 0
+		},
+	"\/includes\/intro-comment.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/intro-comment.php",
+		"oF": 0
+		},
+	"\/includes\/nav.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/nav.php",
+		"oF": 0
+		},
+	"\/includes\/pages\/include-forsaljning.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/pages\/include-forsaljning.php",
+		"oF": 0
+		},
+	"\/includes\/pages\/include-index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/pages\/include-index.php",
+		"oF": 0
+		},
+	"\/includes\/pages\/include-kontakt.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/pages\/include-kontakt.php",
+		"oF": 0
+		},
+	"\/includes\/pages\/include-recept.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/pages\/include-recept.php",
+		"oF": 0
+		},
+	"\/includes\/pages\/include-sjalvplock.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/pages\/include-sjalvplock.php",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/js\/functions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/functions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-2.2.4.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/jquery-2.2.4.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/functions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/min\/functions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/kontakt.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kontakt.php",
+		"oF": 0
+		},
+	"\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/recept.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/recept.php",
+		"oF": 0
+		},
+	"\/sjalvplock.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sjalvplock.php",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 504134351,
+	"displayValue": "stenatorp-webprojekt",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-ariel"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/stenatorp.dev",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
